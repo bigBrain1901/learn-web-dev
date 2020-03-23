@@ -1,0 +1,136 @@
+body {
+    font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", Tahoma, Verdana, Segoe, sans-serif;
+}
+
+input, button {
+    outline:none;
+}
+
+.background-grey {
+    background-color: #fafafa;
+}
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.cpr {
+    font-size: medium;
+    text-align: center;
+    color: #a7a7a7;
+}
+
+.form-lyt {
+    display: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 18%;
+    border-radius: 1rem;
+    border-color: #2E75B6;
+    border-width: 0.5px;
+    padding: 0 30px 30px 30px;
+    box-shadow: 0px 6px 30px grey;
+}
+
+.form-header {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border-bottom: #2E75B6;
+    border-width: 0.5px;
+    border-style: none none solid none;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.form-input-text {
+    padding: 12px;
+    border-radius: 0.5rem;
+    border-color: #2E75B6;
+    border-width: 0.5px;
+    border-style: solid;
+    background-color: #ffffff;
+    font-size: large;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.form-input-text:hover {
+    padding: 10.5px;
+    border-radius: 0.5rem;
+    border-color: rgb(119, 179, 236);
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    font-size: large;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.form-input-text:focus, .form-input-text:visited {
+    padding: 10.5px;
+    border-radius: 0.5rem;
+    border-color: #2E75B6;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    font-size: large;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: large;
+    padding: 2px;
+}
+
+.form-checkbox {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: text-bottom;
+}
+
+.form-button {
+    float: right;
+    margin: none;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(61, 151, 235);
+    padding: 11px 40px;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+.form-button:hover {
+    color: white;
+    background-color: #2E75B6;
+}
+
+.form-button:focus, .form-button:visited {
+    color: white;
+    background-color: #2E75B6;
+    padding: 10px 39px;
+}
+
+.form-link, .form-link:active {
+    text-align: right;
+    display: block;
+    margin: 5px 0 0px 5px;
+    color: #2E75B6;
+    font-size: large;
+    font-weight: 700;
+}
+
+.form-link:hover, .form-link:visited {
+    color: rgb(22, 87, 148);
+}
