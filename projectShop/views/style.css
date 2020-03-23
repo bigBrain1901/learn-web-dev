@@ -134,3 +134,27 @@ input, button {
 .form-link:hover, .form-link:visited {
     color: rgb(22, 87, 148);
 }
+
+@media screen and (max-width: 1650px) {
+    .form-lyt{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .form-lyt{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .form-lyt{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .form-lyt{
+        width: 80%;
+    }
+}
